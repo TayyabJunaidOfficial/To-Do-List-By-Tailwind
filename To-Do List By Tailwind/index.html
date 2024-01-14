@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+</head>
+<body class="bg-black">
+    <section class="bg-white flex justify-center w-[580px] h-[100px] relative top-40 left-96 p-3">
+        <div class="bg-red-600 w-[500px] h-[75px] border border-black flex justify-around p-4 task-wrap">
+       <form action="" id="task-form" >
+        <div class="add_task_inputs">
+        <input type="text" name="" id="add-input" placeholder="Add a New Task" class="w-80 h-10 p-4 text-xl">
+        <button type="submit" class="bg-white w-28 h-10 p-2 text-lg text-red-600 font-bold btn">Add Task</button>
+        </div>
+       </form>
+        </div>
+    </section>
+
+    <section class="bg-white flex justify-center w-[580px] relative top-40 left-96 p-3 my-10">
+        <div>
+            <h1 class="text-3xl text-red-600 font-bold text-left">Tasks List</h1>
+            <div id="added-task" class="task-wrap">
+                <!-- <div class="bg-red-600 w-[500px] h-[75px] border border-black flex justify-around p-4 mt-5 add_task_inputs" >
+                    <input type="text" name="" id="added-input" placeholder="Added Task" class="w-64 h-11 p-4 text-xl">
+                    <button class="bg-white w-20 h-11 p-2 text-lg text-blue-600 font-bold btn">Edit</button>
+                    <button class="bg-white w-20 h-11 p-2 text-lg text-blue-600 font-bold btn">Delete</button>
+                </div> -->
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/Assets/js/script.js"></script>
+</html>
